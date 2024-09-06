@@ -107,17 +107,23 @@ header {
     padding: 0 32px;
 }
 
-.testointerno {
+.testointerno, .poesia p {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
-.testointerno p {
+
+.testointerno p, .poesia p {
     font-size: 23px;
     margin-bottom: 4rem;
     line-height: 1.5;
     margin-top: 4rem;
 }
+
+.poesia p {
+    font-style: italic;
+}
+
 .testointerno h2 {
     font-size: 20px;
     margin-top: 4rem;
@@ -135,12 +141,13 @@ header {
 }
 
 
-.contenuto h1 {
+.contenuto h1, .opere h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: #105483;
     font-family: serif;
-    padding: 64px 0;
+    padding: 40px 0;
+    margin-bottom: 40px;
 }
 
 .contenuto h3 {
@@ -198,12 +205,12 @@ footer {
 
 
 
-.opere h1 {
-    font-size: 50px;
+    /* .opere h1 {
+    font-size: 60px;
     color: #105483;
     font-family: serif;
     padding: 64px 0;
-}
+} */
 
 
 .testointerno {
@@ -279,13 +286,13 @@ footer {
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 64px 16px;
+    padding: 64px 64px;
 }
 
 .container-artisti {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0px 16px;
+    padding: 64px 64px;
 }
 
 .containerimagetour {
@@ -335,10 +342,10 @@ footer {
     text-decoration: underline;
 }
 
-footer {
+/*.footer {
     background-color: #105483;
     padding: 36px 16px;
-}
+} 
 
 .container-footer {
     max-width: 1200px;
@@ -347,7 +354,7 @@ footer {
     justify-content: space-between;
     gap: 16px;
 
-}
+} */
 
 .imgappstore {
     display: flex;
@@ -411,6 +418,16 @@ footer {
         font-size: 16px;
     }
 
+    .text-container h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .container {
+        padding: 32px 32px;
+
+    }
+
     .containerimage {
         display: block;
     }
@@ -421,13 +438,15 @@ footer {
    }
    
    .titolocard {
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 20px;
-   }
+    line-height: 34px;
+}
 
    .opere h1 {
-    padding: 0px;
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 34px;
+    padding: 20px 0px 20px;
    }
 
    .immaginefooter2 {
@@ -436,22 +455,56 @@ footer {
    }
 
    .paragrafocard {
-    font-size: 20px;
-   }
+    font-size: 18px;
+    line-height: 24px;
+}
 
    .containerimagefooter h3 {
-    font-size: 40px;
-   }
+    font-size: 30px;
+    line-height: 34px;
+    }
 
    .gridcolumn2 a {
     font-size: 16px;
    }
 
-   .container {
-    padding: 32px 32px;
+
+   .testointerno p {
+    font-size: 18px;
+    line-height: 24px;
+    }
+
+   .contenuto h1 {
+    font-size: 30px;
+    padding: 18px 0;
    }
 
    .testointerno p {
-    font-size: 20px;
-   }
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: 2rem;
+}
+
+.container-artisti {
+    margin: 0;
+    max-width: 1200px;
+    padding: 16px 32px;
+}
+
+.container-card img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.titolocardtour {
+    font-size: 30px;
+}
+
+.poesia p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
 }
