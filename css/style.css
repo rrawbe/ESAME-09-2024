@@ -56,10 +56,16 @@ header {
 }
 
 .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 64px 16px;
+}
+
+/*.container {
     max-width: 1200px;
     margin: auto;
     padding: 150px 0px;
-}
+}*/
 
 .text-container {
     position: absolute;
@@ -113,15 +119,18 @@ header {
     margin-right: auto;
 }
 
-.testointerno p, .poesia p {
+.testointerno p {
     font-size: 23px;
-    margin-bottom: 4rem;
-    line-height: 1.5;
-    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+    /*margin-top: 4rem;*/
 }
 
 .poesia p {
     font-style: italic;
+    font-size: 23px;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
 }
 
 .testointerno h2 {
@@ -168,7 +177,9 @@ header {
 .galleria-immagini {
     display: flex;
     gap: 16px;
+    margin-top: 4rem;
 }
+
 
 footer {
     background-color: #105483;
@@ -203,14 +214,11 @@ footer {
     object-fit: cover;
 }
 
-
-
-    /* .opere h1 {
-    font-size: 60px;
-    color: #105483;
-    font-family: serif;
-    padding: 64px 0;
-} */
+.contenuto img {
+    margin-bottom: 4rem;
+    max-width: 100%;
+    display: block;
+}
 
 
 .testointerno {
@@ -371,6 +379,45 @@ footer {
     line-height: normal;
 }
 
+.titolo-scheda-info {
+    color: #105483;
+    font-family: "Inter";
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/*.container-info {
+    margin: 50px 0px;
+    border: 1px solid red;
+}*/
+
+.info{
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.info-contenuto, .titoletto, .p-card, .p {
+    /*border: 1px solid red;*/
+    font-family: "Inter";
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.titoletto {
+    /*color: green;*/
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.p-card {
+    /*border: 1px solid blue;*/
+    font-weight:bold;
+
+}
+
+
 @media screen and (max-width:600px) {
     .text-container h1 {
         font-size: 48px;
@@ -430,6 +477,10 @@ footer {
 
     .containerimage {
         display: block;
+    }
+
+    .containerimagetour {
+        gap: 12px;
     }
 
    .containerimagefooter {
@@ -506,5 +557,21 @@ footer {
     line-height: 22px;
 }
 
+.info {
+    margin: 20px 0px;
+    border: 1px solid white;
+    display: block;
+    max-width: 50%;
+}
+
+.container-info {
+    display: grid;
+    margin: 0;
+}
+
+.titolo-scheda-info {
+    margin: 0;
+    font-size: 20px;
+}
 
 }
