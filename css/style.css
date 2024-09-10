@@ -475,6 +475,10 @@ footer {
 
 }
 
+.contenuto img {
+    margin-bottom: 0;
+}
+
 .containerimage {
     display: block;
 }
@@ -499,6 +503,7 @@ footer {
     font-size: 30px;
     line-height: 34px;
     padding: 20px 0px 20px;
+    margin-bottom: -20px;
 }
 
 .immaginefooter2 {
@@ -510,6 +515,7 @@ footer {
     font-size: 18px;
     line-height: 24px;
 }
+
 
 .containerimagefooter h3 {
     font-size: 30px;
@@ -529,18 +535,18 @@ footer {
 .contenuto h1 {
     font-size: 30px;
     padding: 18px 0;
+    margin-bottom: 10px;
 }
 
 .testointerno p {
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-    padding-top: 2rem;
+
+    margin: 24px 0px;
 }
 
 .container-artisti {
     margin: 0;
     max-width: 1200px;
-    padding: 16px 32px;
+    padding: 32px 32px;
 }
 
 .container-card img {
@@ -556,11 +562,12 @@ footer {
 .poesia p {
     font-size: 14px;
     line-height: 22px;
+    margin-top: 18px;
 }
 
 .info {
     margin: 20px 0px;
-    border: 1px solid white;
+    /*border: 1px solid rgb(124, 3, 3);*/
     display: block;
     max-width: 50%;
 }
@@ -574,5 +581,7 @@ footer {
     margin: 0;
     font-size: 20px;
 }
+
+
 
 }
